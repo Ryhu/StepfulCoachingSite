@@ -1,0 +1,25 @@
+
+.timeRadioLabel:has(input:checked) {
+  background-color: #0d6efd;
+  color: white
+}
+
+.timeRadioLabel:has(input:disabled) {
+  background-color: #9b8d8a;
+  color: black
+}
+
+input[type=radio] {
+  display:none;
+}
+
+.timeRadioLabel {
+  border: 1px solid #DDD;
+  border-radius:7px;
+  padding:10px;
+  margin-top:10px;
+  display:block;
+  position:relative;
+  text-align: center;
+}
+
